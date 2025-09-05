@@ -16,7 +16,9 @@
       "Bash(pip install:*)",
       "Bash(pre-commit:*)",
       "Bash(git add:*)",
-      "Bash(git reset:*)"
+      "Bash(git reset:*)",
+      "Bash(git config:*)",
+      "Bash(git commit:*)"
     ],
     "deny": [],
     "ask": []
