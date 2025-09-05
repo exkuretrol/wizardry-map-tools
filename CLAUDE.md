@@ -49,10 +49,50 @@ bun run preview
 
 ## Development Workflow
 
+### Daily Development Process
 1. **Start Development**: Use `bun run dev` to start the development server
 2. **Code Quality**: Run `bun run lint` to check for linting issues
 3. **Format Code**: Run `bun run format` to auto-format your code
 4. **Build**: Use `bun run build` to create production build
+
+### Pre-Commit Checklist
+Before making any commits, ensure you follow this workflow:
+
+1. **Code Quality Checks**:
+   ```bash
+   bun run lint          # Fix any linting errors
+   bun run format        # Format code with Prettier  
+   bun run build         # Ensure project builds successfully
+   ```
+
+2. **Update Documentation** (if applicable):
+   - If installation method changes → Update `README.md`
+   - If files break original installation → Update `README.md`
+   - If new features/APIs added → Update `CLAUDE.md`
+
+3. **Changelog & Version Management**:
+   ```bash
+   # Before committing, always check if changelog needs updating
+   bun run release      # This will:
+   # - Analyze commits since last release
+   # - Update CHANGELOG.md automatically
+   # - Bump version in package.json
+   # - Create release commit and tag
+   ```
+
+4. **Commit Process**:
+   ```bash
+   git add .
+   git commit -m "feat: your conventional commit message"
+   git push --follow-tags  # Push commits and tags
+   ```
+
+### Important Notes
+- **Never commit** without running the pre-commit checklist
+- **Always update CHANGELOG.md** using `bun run release` before major commits
+- **Update README.md** immediately if installation process changes
+- **Use conventional commits** - they auto-generate changelog entries
+- **Test builds** before committing to ensure no breaking changes
 
 ## Code Style Guidelines
 
@@ -179,6 +219,36 @@ This project follows [Keep a Changelog](https://keepachangelog.com/) format and 
    - Generates/updates `CHANGELOG.md` 
    - Creates git commit and tag
    - Ready for `git push --follow-tags`
+
+### Changelog Management Best Practices
+
+**Before Every Commit Session:**
+1. Check if significant changes warrant a changelog update
+2. Run `bun run release` to ensure CHANGELOG.md is current
+3. Review the generated changelog entries for accuracy
+4. Commit changelog updates separately if needed
+
+**When to Update Changelog:**
+- ✅ **New features** added (`feat:` commits)
+- ✅ **Bug fixes** implemented (`fix:` commits)
+- ✅ **Breaking changes** introduced (`BREAKING CHANGE:` footer)
+- ✅ **Performance improvements** (`perf:` commits)
+- ✅ **Before major releases** or milestones
+- ❌ **Documentation updates** (`docs:` commits) - auto-hidden
+- ❌ **Code style changes** (`style:` commits) - auto-hidden
+- ❌ **Test additions** (`test:` commits) - auto-hidden
+
+**Changelog Validation:**
+```bash
+# Check current unreleased changes
+git log $(git describe --tags --abbrev=0)..HEAD --oneline
+
+# Generate changelog preview without committing
+bun run release --dry-run
+
+# Review changes before finalizing
+git diff CHANGELOG.md
+```
 
 ### Changelog Sections
 - **Features** (`feat:`) - New functionality
