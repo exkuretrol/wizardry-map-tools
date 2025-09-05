@@ -1,0 +1,375 @@
+{
+  "tiles": [
+    {
+      "name": "map_statue",
+      "x": 334.0761,
+      "y": 248,
+      "width": 26.847757,
+      "height": 38
+    },
+    {
+      "name": "map_iron_fence2",
+      "x": 401.0761,
+      "y": 84,
+      "width": 23.89713,
+      "height": 38
+    },
+    {
+      "name": "map_door3",
+      "x": 365.0761,
+      "y": 210,
+      "width": 15.847759,
+      "height": 38
+    },
+    {
+      "name": "map_NPC_bone",
+      "x": 42.076122,
+      "y": 408.0761,
+      "width": 37.923878,
+      "height": 36.847755
+    },
+    {
+      "name": "map_alarm_floor",
+      "x": 282,
+      "y": 0,
+      "width": 38,
+      "height": 38
+    },
+    {
+      "name": "map_floorup",
+      "x": 0,
+      "y": 282,
+      "width": 38,
+      "height": 38
+    },
+    {
+      "name": "map_harken_M",
+      "x": 366.0761,
+      "y": 160.07613,
+      "width": 30.847757,
+      "height": 30.847757
+    },
+    {
+      "name": "map_door2",
+      "x": 118.076126,
+      "y": 366,
+      "width": 15.847759,
+      "height": 38
+    },
+    {
+      "name": "map_switch_button2",
+      "x": 294.0761,
+      "y": 294.0761,
+      "width": 33.847755,
+      "height": 33.847755
+    },
+    {
+      "name": "map_collapse",
+      "x": 0,
+      "y": 324,
+      "width": 38,
+      "height": 38
+    },
+    {
+      "name": "map_golem1",
+      "x": 42,
+      "y": 282,
+      "width": 38,
+      "height": 38
+    },
+    {
+      "name": "map_switch_wall3",
+      "x": 84.29289,
+      "y": 408,
+      "width": 15.414214,
+      "height": 38
+    },
+    {
+      "name": "map_mermaid_statue",
+      "x": 282,
+      "y": 42,
+      "width": 38,
+      "height": 38
+    },
+    {
+      "name": "map_treasure",
+      "x": 366.0761,
+      "y": 126.076126,
+      "width": 36.847755,
+      "height": 29.847757
+    },
+    {
+      "name": "map_poison_swamp",
+      "x": 282,
+      "y": 84,
+      "width": 38,
+      "height": 38
+    },
+    {
+      "name": "map_move_floor",
+      "x": 0.076120496,
+      "y": 450.0761,
+      "width": 33.897125,
+      "height": 37.897125
+    },
+    {
+      "name": "map_water_current2",
+      "x": 408,
+      "y": 42,
+      "width": 35.940273,
+      "height": 37.923878
+    },
+    {
+      "name": "map_corrosion",
+      "x": 42,
+      "y": 324,
+      "width": 38,
+      "height": 38
+    },
+    {
+      "name": "map_frame",
+      "x": 0,
+      "y": 0,
+      "width": 278,
+      "height": 278
+    },
+    {
+      "name": "map_unkownarea",
+      "x": 84,
+      "y": 282,
+      "width": 38,
+      "height": 38
+    },
+    {
+      "name": "player_icon",
+      "x": 210,
+      "y": 362,
+      "width": 30,
+      "height": 37
+    },
+    {
+      "name": "map_check_yellow",
+      "x": 324,
+      "y": 0,
+      "width": 38,
+      "height": 38
+    },
+    {
+      "name": "map_mental_down",
+      "x": 0,
+      "y": 366,
+      "width": 38,
+      "height": 38
+    },
+    {
+      "name": "map_switch_wall2",
+      "x": 385.2929,
+      "y": 195,
+      "width": 15.414214,
+      "height": 38
+    },
+    {
+      "name": "map_object",
+      "x": 366.06638,
+      "y": 84,
+      "width": 30.857498,
+      "height": 38
+    },
+    {
+      "name": "map_water_current4",
+      "x": 252.07613,
+      "y": 282.02676,
+      "width": 37.923878,
+      "height": 36.973248
+    },
+    {
+      "name": "map_floordown",
+      "x": 282,
+      "y": 126,
+      "width": 38,
+      "height": 38
+    },
+    {
+      "name": "map_NPC",
+      "x": 405.09784,
+      "y": 160.07613,
+      "width": 16.850834,
+      "height": 33.847755
+    },
+    {
+      "name": "map_switch_iron_gate",
+      "x": 0,
+      "y": 408,
+      "width": 38,
+      "height": 38
+    },
+    {
+      "name": "map_door",
+      "x": 84.02675,
+      "y": 366.0761,
+      "width": 29.946497,
+      "height": 37.897125
+    },
+    {
+      "name": "map_switch_wall1",
+      "x": 275.2929,
+      "y": 374,
+      "width": 15.414214,
+      "height": 38
+    },
+    {
+      "name": "map_randomblock",
+      "x": 126,
+      "y": 282,
+      "width": 38,
+      "height": 38
+    },
+    {
+      "name": "map_water_current",
+      "x": 282,
+      "y": 168,
+      "width": 38,
+      "height": 38
+    },
+    {
+      "name": "map_water_god_statue",
+      "x": 168,
+      "y": 282,
+      "width": 38,
+      "height": 38
+    },
+    {
+      "name": "map_golem2",
+      "x": 210,
+      "y": 282,
+      "width": 38,
+      "height": 38
+    },
+    {
+      "name": "map_switch_button1",
+      "x": 324.0761,
+      "y": 210.07613,
+      "width": 33.847755,
+      "height": 33.847755
+    },
+    {
+      "name": "map_junk",
+      "x": 366,
+      "y": 0,
+      "width": 38,
+      "height": 38
+    },
+    {
+      "name": "map_door4",
+      "x": 282,
+      "y": 210,
+      "width": 38,
+      "height": 38
+    },
+    {
+      "name": "map_harken_L",
+      "x": 244.07613,
+      "y": 362,
+      "width": 26.847757,
+      "height": 37.923878
+    },
+    {
+      "name": "map_iron_fence",
+      "x": 294.0761,
+      "y": 252,
+      "width": 35.92388,
+      "height": 38
+    },
+    {
+      "name": "map_switch_hold",
+      "x": 324,
+      "y": 42,
+      "width": 38,
+      "height": 38
+    },
+    {
+      "name": "map_trap_thorn",
+      "x": 84,
+      "y": 324,
+      "width": 38,
+      "height": 38
+    },
+    {
+      "name": "map_enemy_sight",
+      "x": 126,
+      "y": 324,
+      "width": 38,
+      "height": 38
+    },
+    {
+      "name": "map_harken_S",
+      "x": 295.0761,
+      "y": 374.0761,
+      "width": 23.84776,
+      "height": 23.84776
+    },
+    {
+      "name": "map_well",
+      "x": 366,
+      "y": 42,
+      "width": 38,
+      "height": 38
+    },
+    {
+      "name": "map_pitfall",
+      "x": 42,
+      "y": 366,
+      "width": 38,
+      "height": 38
+    },
+    {
+      "name": "map_water_current3",
+      "x": 324,
+      "y": 168,
+      "width": 38,
+      "height": 37.923878
+    },
+    {
+      "name": "map_enemy_alert",
+      "x": 408,
+      "y": 0,
+      "width": 38,
+      "height": 38
+    },
+    {
+      "name": "map_switch_button3",
+      "x": 210.07613,
+      "y": 324.0761,
+      "width": 33.847755,
+      "height": 33.847755
+    },
+    {
+      "name": "map_iron_fence1",
+      "x": 275.0761,
+      "y": 332,
+      "width": 23.89713,
+      "height": 38
+    },
+    {
+      "name": "switch_switch_golem",
+      "x": 324,
+      "y": 84,
+      "width": 38,
+      "height": 38
+    },
+    {
+      "name": "map_warp",
+      "x": 324,
+      "y": 126,
+      "width": 38,
+      "height": 38
+    },
+    {
+      "name": "map_baggage",
+      "x": 168,
+      "y": 324,
+      "width": 38,
+      "height": 38
+    }
+  ]
+}

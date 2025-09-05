@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create:*)",
+      "Bash(bun create:*)",
+      "Bash(bun run:*)",
+      "Bash(bun install:*)",
+      "Bash(bun add:*)",
+      "Bash(bunx tailwindcss init:*)",
+      "Bash(bun x tailwindcss init:*)",
+      "Bash(bunx:*)",
+      "Read(c:\\Users\\kuaz\\My project\\Assets\\Editor/**)",
+      "Bash(lsof:*)",
+      "Bash(curl:*)",
+      "Bash(git init:*)",
+      "Bash(pip install:*)",
+      "Bash(pre-commit:*)",
+      "Bash(git add:*)",
+      "Bash(git reset:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
