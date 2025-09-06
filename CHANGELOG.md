@@ -4,10 +4,9 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### 0.0.1 (2025-09-05)
 
-
 ### Features
 
-* initial wizardry map tools implementation ([1294a1d](https://github.com/exkuretrol/wizardry-map-tools/commit/1294a1d143898002b070199c188bfea4238c7112))
+- initial wizardry map tools implementation ([1294a1d](https://github.com/exkuretrol/wizardry-map-tools/commit/1294a1d143898002b070199c188bfea4238c7112))
 
 # Changelog
 
@@ -19,6 +18,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
+
 - Initial project setup with React, TypeScript, and Vite
 - Map editor with tile-based editing system
 - Tile canvas for rendering and interaction

@@ -1,0 +1,47 @@
+MIT License
+
+Copyright (c) 2025 exkuretrol
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+===============================================================================
+ASSET DISCLAIMER
+===============================================================================
+
+This software includes tile assets and graphics that may be derived from or
+inspired by various video games. These assets are:
+
+1. NOT covered by the MIT License above
+2. May be subject to copyright by their respective owners
+3. Included for educational and development purposes
+4. Users are responsible for ensuring compliance with applicable copyright laws
+
+The tile assets located in the 'public/tiles/' directory and any related
+metadata files are provided "as-is" for development and educational purposes.
+If you are the copyright holder of any included assets and wish them to be
+removed, please contact the repository owner.
+
+Users of this software should:
+- Use assets only for personal, educational, or development purposes
+- Replace assets with their own original content for commercial use
+- Respect the intellectual property rights of original game developers
+- Comply with all applicable copyright and fair use laws
+
+THE SOFTWARE AUTHORS DISCLAIM ALL LIABILITY RELATED TO THE USE OF INCLUDED
+ASSETS AND ANY POTENTIAL COPYRIGHT INFRINGEMENT.

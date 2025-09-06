@@ -1,4 +1,4 @@
-import MapEditor from './components/editor/MapEditor'
+import MapEditor from './components/editor/MapEditor';
 
 function App() {
   return (
@@ -9,12 +9,12 @@ function App() {
           <p className="text-muted-foreground">RPG Tile Map Editor</p>
         </div>
       </header>
-      
+
       <main className="flex-1 container mx-auto p-4 overflow-hidden">
         <MapEditor />
       </main>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

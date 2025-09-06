@@ -2,6 +2,8 @@
 
 A comprehensive React-based tile map editor for creating RPG-style maps with interactive editing, path drawing, and annotation features.
 
+> **Note**: This project includes tile assets derived from video games for educational purposes. See [License](#license) section for important copyright information.
+
 ## Features
 
 - 🎨 **Interactive Tile Editing** - Place and arrange tiles on an 81x81 grid
@@ -21,17 +23,20 @@ A comprehensive React-based tile map editor for creating RPG-style maps with int
 ### Installation
 
 1. **Clone the repository:**
+
    ```bash
    git clone https://github.com/exkuretrol/wizardry-map-tools.git
    cd wizardry-map-tools
    ```
 
 2. **Install dependencies:**
+
    ```bash
    bun install
    ```
 
 3. **Start development server:**
+
    ```bash
    bun run dev
    ```
@@ -150,7 +155,23 @@ git push --follow-tags
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+
+### Important Asset Disclaimer
+
+⚠️ **The tile assets included in this project are derived from video games and are NOT covered by the MIT License.**
+
+- **Code**: MIT Licensed (free to use, modify, distribute)
+- **Assets**: May be copyrighted by original game developers
+- **Usage**: Provided for educational and development purposes only
+
+**For Commercial Use:**
+
+- Replace all game assets with your own original content
+- The map editor code can be freely used under MIT License
+- Ensure compliance with copyright laws for any assets you use
+
+**If you're a copyright holder** and wish to have assets removed, please open an issue.
 
 ## Acknowledgments
 
